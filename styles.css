@@ -74,18 +74,18 @@ nav ul li a {
     line-height: 50px;
     font-family: 'lato', sans-serif;
     font-size: 16px;
-    padding: 0 16px;
+    padding: 0 18px;
 }
 
 nav ul li a:hover {
     cursor: pointer;
     color: rgb(254, 46, 46);
     background-color: rgb(198, 198, 252);
-    padding: 16px 16px;
+    padding: 16px 18px;
 }
 .active-nav-link a {
     background: rgb(198, 198, 252) !important;
-    padding: 16px 16px;
+    padding: 16px 18px;
 }
 
 .icon, input {
