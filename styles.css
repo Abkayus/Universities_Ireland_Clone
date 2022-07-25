@@ -1,0 +1,776 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.nav-wrapper {
+    background-color: rgb(13, 13, 173);
+}
+.background-image {
+    margin-top: 15px;
+    height: 105vh;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+.header-wrapper{
+    position: relative;
+    top: 20px;
+    margin-left: 120px;
+}
+#horizontal-line hr{
+    background-color: rgb(13, 13, 155);
+}
+#university-wrapper {
+    padding-top: 10px;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: rgb(13, 13, 155);
+}
+#ireland-wrapper {
+    padding-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    text-indent: 85px;
+    color: rgb(13, 13, 155);
+}
+nav {
+    background: #236;
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+nav:after {
+    content: '';
+    clear: both;
+    display: flex;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    background: #236;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    padding: 0 27px;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: rgb(254, 46, 46);
+    background-color: rgb(198, 198, 252);
+    padding: 16px 27px;
+}
+.active-nav-link a {
+    background: rgb(198, 198, 252) !important;
+    padding: 16px 27px;
+}
+
+.icon, input {
+    display: none;
+}
+.text-button-wrapper {
+    color: #236;
+    margin-left: 145px;
+}
+.text-wrapper h1 {
+    padding-top: 60px;
+    font-size: 2.5em;
+    line-height: 2em;
+}
+.text-wrapper p{
+    width: 50%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+.button-wrapper {
+    width: 36%;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: -20px;
+}
+.button-wrapper a{
+    color: #236;
+    padding: 10px 60px;
+    border: 1px solid #236;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+}
+.button-wrapper a:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(6, 6, 75);
+}
+.sections-wrapper{
+    display: grid;
+    justify-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.section-wrapper {
+    position: relative;
+    width: 97%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 0;
+    margin-top: 100px;
+    background-color: rgb(244, 242, 242);
+}
+.section-wrapper img{
+    position: absolute;
+    padding-left: 35%;
+    margin-top: -40px;
+}
+.text-link-wrapper {
+    text-align: center;
+    padding-top: 100px;
+}
+.link-section-wrapper{
+    padding-bottom: 10px;
+}
+.link-section-wrapper a{
+    color: #236;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.text-section-wrapper p{
+    width: 95%;
+    color: #236;
+    margin-left: 10px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-bottom: 30px;
+}
+.button-section-wrapper {
+    padding-bottom: 30px;
+}
+.button-section-wrapper{
+    margin-left: 120px;
+}
+.button-section-wrapper a{
+    color: white;
+    background-color: #236;
+    text-decoration: none;
+    padding: 10px 50px 5px 50px;
+    border: 1px solid #236;
+}
+.button-section-wrapper a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(19, 57, 172);
+}
+.welcome-burseries-wrapper{
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(244, 242, 242);
+}
+.welcome-wrapper h2{
+    color: #236;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.welcome-wrapper p{
+    color: rgb(7, 28, 92);
+    width: 60%;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+.welcome-wrapper ul{
+    margin-left: 40px;
+}
+.welcome-wrapper li{
+    list-style: square;
+    color: rgb(7, 28, 92);
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+.burseries-wrapper h3{
+    color: rgb(6, 24, 79);
+    font-size: 1.25em;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.burseries-wrapper p{
+    color: rgb(7, 28, 92);
+    width: 56%;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+.news-event-wrapper{
+    margin-top: 70px;
+    padding-left: 110px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.news{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 750;
+    padding-bottom: 10px;
+    color: #236;
+}
+.events-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
+    padding-right: 75px;
+    width: 100%;
+}
+.events-wrapper a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.2em;
+    opacity: 0.7;
+}
+.events-wrapper h4{
+    padding-bottom: 5px;
+    opacity: 0.5;
+}
+.events-wrapper p{
+    width: 77%;
+}
+.footer-wrapper {
+    color: white;
+    background-color: rgb(6, 22, 73);
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-right: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#item-wrapper h5 {
+    font-size: 1.2em;
+    font-family: "calibri";
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.vl {
+    border-left: 6px solid white;
+    height: 23px;
+    position: relative;
+}
+#item-wrapper ul{
+    padding-top: 15px;
+}
+#item-wrapper li {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: "calibri";
+    list-style: none;
+    padding-bottom: 5px;
+}
+#item-wrapper li a{
+    color: white;
+    text-decoration: none;
+}
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+
+@media only screen and (max-width: 1078px) {
+    .background-image {
+        background-position: left;
+        width: 100%;
+        height: 130vh;
+    }
+    
+    .content-wrapper {
+        background-color: rgb(236, 237, 238);
+    }
+    .header-wrapper{
+        margin-left: 30px;
+        width: 125%;
+    }
+    nav{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    nav ul li a{
+        padding: 0 12px;
+    }
+    .text-button-wrapper {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .text-wrapper{
+        margin-top: -40px;
+    }
+    
+    .text-wrapper h1 {
+        padding-top: 0px;
+        font-size: 2.5em;
+    }
+    
+    .text-wrapper p {
+        width: 55%;
+        font-size: 18px;
+    }
+    .text-wrapper br{
+        display: none;
+    }
+    
+    .button-wrapper {
+        padding-top: 30px;
+        margin-left: -50px;
+        width: 50%;
+    }
+    
+    .button-wrapper a {
+        padding: 10px 30px;
+    }
+    .button-section-wrapper {
+        margin-left: 40px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    #btn {
+        padding-top: 22px;
+    }
+    
+    .button-section-wrapper a {
+        padding: 5px 60px;
+    }
+    .content-wrapper{
+        background-color: #fff;
+    }
+    .sections-wrapper{
+        margin-left: 20px;
+        margin-right: 25px;
+        margin-top: -30px;
+    }
+    .button-section-wrapper{
+        padding-left: 30px;
+        margin-top: 10px;
+    }
+    .welcome-burseries-wrapper{
+        padding-left: 30px;
+    }
+    .welcome-wrapper h2{
+        font-size: 1.5em;
+    }
+    .welcome-wrapper p{
+        font-size: 15px;
+    }
+    .activity-list-wrapper li{
+        font-size: 15px;
+    }
+    .burseries-wrapper h3{
+        font-size: 1.25em;
+    }
+    .burseries-wrapper p{
+        font-size: 15px;
+    }
+    .news-event-wrapper {
+        padding-left: 30px;
+    }
+    .events-wrapper p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .footer-wrapper{
+        padding-left: 0;
+        padding-right: 10px;
+        padding-bottom: 40px;
+    }
+    .copyright{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    #item-wrapper{
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width: 999px) {
+    nav ul li a{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .background-image{
+        height: 115vh;
+    }
+    .header-wrapper{
+        margin-left: 15px;
+    }
+    nav {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    nav ul {
+        margin-left: 0px;
+        float: left;
+    }
+
+    nav ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px dotted orange;
+    }
+
+    .icon {
+        display: block;
+        color: white;
+        position: relative;
+        left: 80px;
+        padding: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    em {
+        position: absolute;
+        color: #fff;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: bold;
+        margin-left: -80px;
+    }
+
+    nav ul li a:hover {
+        width: 100%;
+    }
+
+    .icon + a,
+    nav ul {
+        display: none;
+    }
+
+        [id^=btn]:checked+ul {
+        display: block;
+    }
+    .text-button-wrapper {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    
+    .text-wrapper h1 {
+        font-size: 2em;
+    }
+    
+    .text-wrapper p {
+        width: 60%;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .button-wrapper {
+        width: 60%;
+    }
+    
+    .button-wrapper a {
+        padding: 10px 20px;
+    }
+    .section-wrapper{
+        margin-bottom: 0px;
+    }
+    .section-wrapper img{
+        margin-left: -7%;
+    }
+    .button-section-wrapper{
+        margin-left: 0px;
+    }
+    .news-event-wrapper {
+        padding-right: 0px;
+    }
+    .events-wrapper{
+        padding-right: 0px;
+    }
+    .events-wrapper p {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+    #item-wrapper ul{
+        width: 60%;
+
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .header-wrapper{
+        width: 160%;
+    }
+    .sections-wrapper {
+        display: inline;
+    }
+    .section-wrapper {
+        width: 75%;
+        margin-left: 100px;
+        margin-bottom: -50px;
+        background-color: rgb(250, 248, 248);
+    }
+    
+    .section-wrapper img {
+        padding-top: 10%;
+        padding-left: 0;
+        margin-left: -30px;
+    }
+    .text-link-wrapper {
+        text-align: center;
+        padding-left: 95px;
+        padding-right: 15px;
+        padding-top: 20px;
+    }
+    
+    .link-section-wrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .text-section-wrapper {
+        width: 100%;
+    }
+    
+    .text-section-wrapper p {
+        font-size: 16px;
+        line-height: 1.25em;
+        opacity: 0.7;
+    }
+    
+    .button-section-wrapper {
+        text-align: center;
+        margin-left: 80px;
+        margin-top: -10px;
+        margin-bottom: 130px;
+    }
+    
+    .button-section-wrapper a {
+        padding: 5px 60px;
+    }
+
+    .welcome-burseries-wrapper {
+        background-color: rgb(250, 248, 248);
+        margin-left: 0px;
+        padding-right: 50px;
+        width: 100%;
+    }
+    
+    .welcome-wrapper p {
+        width: 64%;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    
+    .activity-list-wrapper ul {
+        width: 58%;
+    }
+    .activity-list-wrapper li br{
+        display: inline;
+    }
+
+    .burseries-wrapper p {
+        width: 60%;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 644px) {
+    .header-wrapper{
+        padding-left: 190px;
+        width: 240%;
+    }
+    .background-image{
+        height: 130vh;
+    }
+    .text-wrapper p{
+        font-size: 14px;
+        width: 95%;
+    }
+    .button-wrapper{
+        margin-left: 0px;
+        width: 45%;
+    }
+    .button-wrapper a{
+        display: block;
+        padding: 15px 30px;
+    }
+    .news-event-wrapper {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+        }
+    
+    .events-wrapper {
+        display: inline;
+    }
+    
+    .event {
+        border-bottom: 1px dotted black;
+        width: 98%;
+    }
+    
+    .event1 {
+        border-bottom: 1px dotted black;
+        width: 98%;
+    }
+    
+    .event2 {
+        border-bottom: 1px dotted black;
+        width: 98%;
+    }
+    
+    .events-wrapper h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .events-wrapper p {
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    
+    .footer-wrapper {
+        padding-left: 0;
+        display: inline-block;
+        background-color: rgb(2, 2, 74);
+        width: 100%;
+    }
+    
+    #item-wrapper {
+        padding-left: 35px;
+        padding-bottom: 10px;
+    }
+    
+    .copyright {
+        padding-top: 5px;
+        margin-left: 10px;
+        display: block;
+    }
+    
+    #web-design {
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 489px) {
+    .header-wrapper{
+        padding-left: 120px;
+        width: 300%;
+    }
+    nav{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .background-image{
+        height: 107vh;
+    }
+    .text-button-wrapper{
+        padding-left: 10px;
+        padding-bottom: 0;
+    }
+    .text-wrapper h1{
+        font-size: 1.8em;
+    }
+    .text-wrapper p{
+        font-size: 14px;
+        width: 89%;
+    }
+    .button-wrapper{
+        width: 65%;
+    }
+    .button-wrapper a{
+        font-size: 12px;
+    }
+    .content-wrapper{
+        background-color: rgb(239, 242, 243);
+    }
+    .section-wrapper{
+        margin-top: -10px;
+        margin-left: 70px;
+        margin-bottom: -80px;
+    }
+    .section-wrapper img{
+        top: 20px;
+        margin-left: 35%;
+    } 
+    .text-link-wrapper{
+        width: 100%;
+        padding-top: 150px;
+        padding-left: 0;
+    }
+    .text-link-wrapper p{
+        width: 100%;
+    }
+    .button-section-wrapper{
+        margin-left: -10px;
+    }
+    .button-section-wrapper a{
+        padding: 5px 30px;
+    }
+    .welcome-burseries-wrapper{
+        margin-top: 20px;
+    }
+    .welcome-wrapper p{
+        width: 100%;
+    }
+    .activity-list-wrapper ul{
+        width: 90%;
+    }
+    .burseries-wrapper p{
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 423px) {
+    .background-image{
+        height: 120vh;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .header-wrapper{
+        margin-left: -50px;
+        width: 400%;
+    }
+    .text-wrapper h1{
+        font-size: 1.25em;
+    }
+    .section-wrapper{
+        margin-left: 50px;
+    }
+}
