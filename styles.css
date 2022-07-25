@@ -46,7 +46,7 @@
 nav {
     background: #236;
     margin-left: 120px;
-    margin-right: 90px;
+    margin-right: 95px;
     margin-top: 25px;
 }
 
@@ -71,7 +71,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    line-height: 50px;
+    line-height: 40px;
     font-family: 'lato', sans-serif;
     font-size: 16px;
     padding: 0 17px;
