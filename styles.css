@@ -13,7 +13,7 @@
 }
 .background-image {
     margin-top: 15px;
-    height: 105vh;
+    height: 120vh;
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -106,14 +106,14 @@ nav ul li a:hover {
     line-height: 1.5em;
 }
 .button-wrapper {
-    width: 36%;
+    width: 40%;
     margin-top: 20px;
     text-align: center;
     margin-left: -20px;
 }
 .button-wrapper a{
     color: #236;
-    padding: 10px 60px;
+    padding: 10px 0px;
     border: 1px solid #236;
     text-decoration: none;
     font-size: 14px;
